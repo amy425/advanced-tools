@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -90,4 +90,31 @@ p {
 
 .text-center {
   text-align: center !important;
+}
+
+.project-description {
+  padding-top: 120px;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+.project-summary {
+  text-align: left;
+}
+
+.project-summary p {
+  line-height: 24px;
 }
